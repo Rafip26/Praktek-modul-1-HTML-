@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title> Form Registrasi </title>
+	</head>
+	<style>
+		* {font-family:Times New Roman; font-size:2vw;}
+	</style>
+	<body>
+		<form>
+			<h1> Form HTML </h1>
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name">
+			<br>
+			<br>
+			<label for="gender">Gender:</label>
+			<input type="radio" name="gender" value="man"> Man
+			<input type="radio" name="gender" value="womam"> Woman
+			<br>
+			<br>
+			<label for="address">Address:</label>
+			<input type="text" name="address" id="adress">
+			<br>
+			<br>
+			<label for="country">Country:</label>
+			<select name="country">
+				<option value="indonesia">Indonesia</option>
+				<option value="japan">Japan</option>
+				<option value="france">France</option>
+				<option value="brazil">Brazil</option>
+			</select>
+			<br>
+			<br>
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email">
+			<br>
+			<br>
+			<label for="photo">Photo</label>
+			<input type="url" name="photo" id="photo">
+			<input type="file" name="kirimphoto" id="kirimphoto">
+			<br>
+			<br>
+			<label for="comment">Comment:</label>
+			<textarea name="comment" cols="50" rows="5" align="left">
+			</textarea>
+			<input type="submit" name="submit" value="submit">
+		</form>
+	</body>
+</html>
